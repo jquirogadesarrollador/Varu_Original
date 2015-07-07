@@ -1,0 +1,429 @@
+﻿body 
+{
+    margin:0px auto;
+}
+
+/*
+    cabecera
+*/
+#div_contenedor_cabecera_fija
+{
+    position: fixed;
+    top:0;
+    width:100%;
+    height:90px;
+    background-color:#e1e1e1;
+}
+
+#div_datos_cabecera
+{
+    width:1024px;
+    height:81px;
+    margin: 0 auto;    
+}
+
+.div_linea1
+{
+    width:100%;
+    height:5px;
+    background-color:#00A6C4;
+}
+
+.div_linea2
+{
+    width:100%;
+    height:2px;
+    background-color:#CCCCCC;
+}
+
+.div_linea3
+{
+    width:100%;
+    height:2px;
+    background-color:#E1E1E1;
+}
+
+
+#tabla_cabecera
+{
+    width:1024px;
+    border:none;
+    margin:0 auto;   
+}
+
+.image_logo
+{
+    width:166px;
+    height:80px;
+}
+
+.botonActivo
+{
+    -webkit-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    
+    -webkit-box-shadow: inset 1px 1px 1px 0px #aaaaaa;
+    box-shadow: inset 1px 1px 1px 0px #aaaaaa;
+    
+    border: 1px solid #999999;
+    height:40px;
+    width:128px;
+    
+    background-color:#00A6C4;
+    color:#000000;
+    font-weight:bold;
+    font-size:90%;
+    padding:5px;
+    margin:2px;
+}
+
+.botonInactivoFail
+{
+    -webkit-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    
+    -webkit-box-shadow: inset 1px 1px 1px 0px #aaaaaa;
+    box-shadow: inset 1px 1px 1px 0px #aaaaaa;
+    
+    border: 1px solid #999999;
+    height:40px;
+    width:128px;
+    
+    background-color:#cccccc;
+    color:#000000;
+    font-weight:bold;
+    font-size:90%;
+    padding:5px;
+    margin:2px;
+}
+
+/*
+    cabecera
+*/
+
+
+/*
+    footer
+*/
+#footer {
+	width: 100%;
+	height: 60px;
+	background-color:#E1E1E1;
+	border-top: 2px solid #00A6C4;
+	position: fixed;
+	bottom: 0;
+}
+
+#div_datos_footer
+{
+    width:1024px;
+    margin:0 auto;
+}
+
+.image_footer
+{
+    width:510px;
+    height:60px;
+    margin:0 auto;
+    display:block;
+}
+   
+/*
+    footer
+*/
+
+/*
+    contenido
+*/
+#div_contenedor_contenido
+{
+    width:1024px;
+    margin:0 auto;
+    padding: 120px 10px 10px 10px;
+    
+}
+
+.td_4
+{
+    width:25%;
+    padding:5px;
+}
+
+.td_2
+{
+    width:50%;
+    padding:5px;    
+}
+
+.td_3
+{
+    width:33%;
+    padding:5px;    
+}
+
+.controles_contenido
+{
+    width:100%;
+}
+
+.tabla_contenido
+{
+    width:1000px;
+    display:block;
+    margin:30px auto 0 auto;
+}
+    
+/*
+    contenido
+*/
+
+/* PARA GRILLAS */
+.columna_grid_centrada
+{
+    text-align:center;
+    padding:2px 4px;
+}
+.columna_grid_der
+{
+    text-align:right;
+    padding:2px 4px;
+}
+.columna_grid_izq
+{
+    text-align:left;
+    padding:2px 4px;
+}
+.columna_grid_jus
+{
+    text-align:justify;
+    padding:2px 4px;
+}
+.td_izq_tabla_exp_lab
+{
+    text-align: left; 
+    margin-left: 10px; 
+    width: 180px;
+    font-size:85%;
+}
+
+.TextBox_con_letra_pequena
+{
+    font-size:80%;
+}
+
+
+.div_contenedor_grilla_resultados
+{
+    margin:0 auto;
+    font-size:85%;
+    text-align:left;
+}
+
+/* PARA ÑA CABECERA DE TODAS LAS GRILLA */
+th
+{
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+    margin:5px auto;
+    background-color:#990000;
+    font-size:85%;
+}
+.grid_seleccionar_registros
+{
+    font-size:85%;
+    font-weight:normal;
+    font-family:Sans-Serif;
+    margin:0px;
+    text-align:left; 
+}
+
+.margin_botones
+{
+    margin-right: 4px;
+    margin-bottom: 4px;
+    
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    margin-top: 0px;
+}
+
+.panel_fondo_popup
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #aaaaaa;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 9998;
+    display: none;
+}
+
+.panel_popup
+{
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    width: 650px;
+    margin-left: -325px;
+    background-color: #dddddd;
+    opacity: 1.0;
+    -moz-opacity: 1.0;
+    filter: alpha(opacity=100);
+    z-index: 9999;
+    border: 2px solid #cccccc;
+    padding: 8px;
+    display: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 3px 3px #999999;
+    -moz-box-shadow: 0px 0px 3px 3px #999999;
+    box-shadow: 0px 0px 3px 3px #999999;
+    display: none;
+}
+
+.panel_popup_fecha
+{
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    background-color: #dddddd;
+    opacity: 1.0;
+    -moz-opacity: 1.0;
+    filter: alpha(opacity=100);
+    z-index: 9999;
+    border: 2px solid #cccccc;
+    padding: 8px;
+    display: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 3px 3px #999999;
+    -moz-box-shadow: 0px 0px 3px 3px #999999;
+    box-shadow: 0px 0px 3px 3px #999999;
+    display: none;
+}
+
+/* VENTANA DE PROCESAMINETO */
+.conf_panel_fondo_ventana_emergente
+{
+    width: 100%;
+    height: 100%;
+    background-color: #aaaaaa;
+    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+    background-color: #cccccc;
+    opacity: 0.90;
+    filter: alpha(opacity=90);
+    z-index: 9998;
+    /*display: none;*/
+}
+
+.conf_panel_ventana_emergente
+{
+    background-color:#ffffff;
+    
+    -webkit-box-shadow: 0px 0px 3px 0px #000000;
+    -moz-box-shadow: 0px 0px 3px 0px #000000;
+    box-shadow: 0px 0px 3px 0px #000000; 
+    
+    border:2px solid #ffffff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px; 
+    
+    height:218px;
+    width:428px;
+    
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -109px;
+    margin-left: -214px;
+    z-index: 9999;
+    /*display:none;*/
+}
+
+.validatorCalloutHighlight
+{
+    background-color: #FFDFDF;
+}
+
+.table_control_registros
+{
+    margin:0 auto;
+}
+
+
+/*
+    ---------------------------------------------------------------------------------------------
+    index.aspx
+    ---------------------------------------------------------------------------------------------
+*/
+#div_contenedor_visual
+{
+    width:1024px;
+    height:768px;
+    margin:0 auto;
+    display:block;
+}
+
+.plantillaLoginPublico_r2_c2
+{
+    background-image: url("../Reclutamiento/images/plantillaLoginPublico_r2_c2.png");
+    width:161px; 
+    height:27px;
+    border:none;
+}
+
+.plantillaLoginPublico_r4_c1
+{
+    background-image: url("../Reclutamiento/images/plantillaLoginPublico_r4_c1.png");
+    width:1024px;
+    height:46px; 
+    border:0;
+}
+
+.plantillaLoginPublico_new_r4_c1
+{
+    background-image: url("../Reclutamiento/images/plantillaLoginPublico_new_r4_c1.png");
+    width:1024px;
+    height:46px; 
+    border:0;
+}
+           
+.textBox_Cedula
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width:158px;
+    height:24px;
+    margin:0 auto;
+    display:block;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\bin\Release\Brainsbits.LLB.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\bin\Release\Brainsbits.LLB.pdb
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\bin\Release\Brainsbits.LDA.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\bin\Release\Brainsbits.LDA.pdb
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\obj\Release\Brainsbits.LLB.csprojResolveAssemblyReference.cache
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\obj\Release\Brainsbits.LLB.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\obj\Release\Brainsbits.LLB.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LLB\obj\Release\Brainsbits.LLB.csprojResolveAssemblyReference.cache
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LLB\obj\Release\Brainsbits.LLB.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LLB\obj\Release\Brainsbits.LLB.pdb

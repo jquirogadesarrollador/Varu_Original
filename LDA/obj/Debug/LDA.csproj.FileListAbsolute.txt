@@ -1,0 +1,4 @@
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\bin\Debug\Brainsbits.LDA.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\bin\Debug\Brainsbits.LDA.pdb
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\obj\Debug\Brainsbits.LDA.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\obj\Debug\Brainsbits.LDA.pdb

@@ -1,0 +1,7 @@
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\bin\Release\LLB.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\bin\Release\LLB.pdb
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\bin\Release\Brainsbits.LDA.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\bin\Release\Brainsbits.LDA.pdb
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\obj\Release\LLB.csprojResolveAssemblyReference.cache
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\obj\Release\LLB.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\obj\Release\LLB.pdb

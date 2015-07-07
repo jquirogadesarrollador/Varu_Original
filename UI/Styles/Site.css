@@ -1,0 +1,1623 @@
+﻿body
+{
+    background: #FFFFFF;
+    font-size: 80%;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    background-image:url('../imagenes/plantilla/fondo.jpg');
+}
+
+/* DIV CONTENEDOR DE TODA LA PAGINA */
+.div_contenedor_pagina
+{
+    margin:0px auto;
+    width:957px;
+}
+/* -------------------------------- */
+
+/* ESTILOS PARA CABEZA 2.0 */
+#div_barra_superior
+{
+    height:10px;
+    width:100%;
+    border:none;
+    margin-bottom:5px;
+}
+#div_barra_inferior
+{
+    height:20px;
+    width:100%;
+    border:none;
+    margin-top:5px;
+}
+#img_barra_superior
+{
+    height:10px;
+    width:100%;
+    border:none;
+}
+#img_barra_inferior
+{
+    height:20px;
+    width:100%;
+    border:none;
+}
+#td_fondo_login
+{
+    background:url('../imagenes/plantilla/plantilla_cabeza_2_r2_c4.png');
+    background-repeat:no-repeat;
+    width:431px;
+    height:39px;
+    border:none;
+    text-align:center;
+    font-size:80%;
+}
+
+#td_fondo_cabeza_login_azul
+{
+    background:url('../imagenes/plantilla/plantlla_cabeza_azul_r2_c2.png');
+    background-repeat:no-repeat;
+    width:498;
+    height:32px;
+    border:none;
+    text-align:center;
+    font-size:80%;
+}
+
+.botones_menu_principal
+{
+    text-decoration:none;
+    border:none;   
+}
+.tabla_botones_menu_hoja_trabajo
+{
+    border:none;   
+    margin:0px;
+}
+#td_fondo_img_area
+{
+    background:url('../imagenes/plantilla/plantilla_cabeza_2_r1_c6.png');
+    background-repeat:no-repeat;
+    width:243px;
+    height:79px;
+    border:none;
+    text-align:center;
+}
+
+#td_fondo_info_modulo
+{
+    background:url('../imagenes/plantilla/plantilla_cabeza_2_r3_c2.png');
+    background-repeat:no-repeat;
+    width:678px;
+    height:33px;
+    border:none;
+    text-align:center;
+    color:#327C0D;
+    font-size:110%;
+}
+
+#td_fondo_cabeza_azul_info_modulo
+{
+    background:url('../imagenes/plantilla/plantlla_cabeza_azul_r4_c2.png');
+    background-repeat:no-repeat;
+    width:498px;
+    height:32px;
+    border:none;
+    text-align:center;
+    color:#999999;
+    font-size:135%;
+    font-weight:normal;
+}
+
+
+#td_fondo_info_area
+{
+    background:url('../imagenes/plantilla/plantilla_cabeza_2_r3_c6.png');
+    background-repeat:no-repeat;
+    width:243px;
+    height:26px;
+    border:none;
+    text-align:center;
+    color:#BE1414;
+    font-size:80%;
+    padding-top:0px;
+    padding-bottom:7px;
+}
+#Image_AREA
+{
+    width:222px;
+    height:60px;
+    border:none;
+    margin:0 auto;
+}
+/* ----------------------- */
+
+.div_contenedor_cabeza
+{
+    width:957px;
+    margin:0 auto;
+}
+.div_info_sesion
+{
+    width:957px;
+    margin:-10px auto -20px auto;
+}
+.div_boton_sesion
+{
+    width:920px;
+    margin:0px auto;
+    padding-top:15px;
+}
+
+.img_area_actual
+{
+    margin-left:14px;
+    width:178px;
+    height:62px;    
+}
+.td_img_modulo_actual
+{
+    background:url('../imagenes/plantilla/plantilla_info_area_r1_c2.png');
+    background-repeat:no-repeat;
+    width:746px;
+    height:94px;
+    border:none;
+    text-align:center;
+}
+.img_barra_superior_inferior
+{
+    width:100%;
+    height:35px;
+    border:none;
+    margin-bottom:5px;
+}
+.div_superior_contenido
+{
+    background:url('../imagenes/plantilla/plantilla_contenido_r1_c1.png');
+    background-repeat:no-repeat;
+    width:957px;
+    height:66px;
+    border:none;
+}
+.div_medio_contenido
+{
+    background:url('../imagenes/plantilla/plantilla_contenido_r2_c1.png');
+    background-repeat:repeat-y;
+    width:957px;
+    border:none;
+}
+.div_inferior_contenido
+{
+    background:url('../imagenes/plantilla/plantilla_contenido_r4_c1.png');
+    background-repeat:repeat-y;
+    width:957px;
+    height:153px;
+    border:none;
+}
+
+.div_contenedor_contenido
+{
+    width:900px;
+    margin:0 auto;
+}
+
+/* EN EL FORM PRINCIPAL DE AREAS, CONTIENE LOS BOTONES DE AREAS */
+.contenedor_areas
+{
+    margin:0 auto;
+    width:900px;
+}
+
+/* CONTENEDOR PARA EL PIE DE PAGINA (TABLA) */
+.div_pie_pagina
+{
+    border:1px solid #000000;
+    margin:5px auto;
+    width:900px;
+    height:50px;
+    background: #cccccc;
+    text-align:center;
+    padding-top:25px;
+    font-size:150%;
+}
+
+/* CSS GENERAL PARA CENTRAR IMAGENES */
+.div_avisos_importantes
+{
+    text-align: justify;
+    color:Blue;
+    font-size:95%;
+}
+.div_aviso_terminacion_audtoria
+{
+    text-align: center;
+    color:Blue;
+    font-size:110%;
+}
+.img_centrada
+{
+    margin:0 auto;
+    display:block;
+}
+
+/* PARA LA TABLA QUE CONTIENE EL TITULO DEL MODULO Y AREA SELECCIONADO */
+.contenedor_titulo_area
+{
+    width:900px;
+    height:60px;
+    margin:0 auto;
+}
+.td_img_titulo_area
+{
+    width:80px;
+    height:70px;
+}   
+.img_titulo_area
+{
+    width:80px;
+    height:70px;
+}
+.td_nombre_area
+{
+    border:1px solid #000000;
+    background: #eeeeee;
+    text-align:center;
+}
+.label_nombre_area
+{
+    color: #327C0D;
+    font-weight:bold;
+    font-size:150%;
+}
+.label_nombre_modulo
+{
+    color: #BE1414;
+    font-weight:bold;
+    font-size:110%;
+}
+/* FIN */
+
+/* ESTILOS PARA LOS BOTONES DEL FORMULARIO */
+.tabla_contiene_botones
+{
+    width:900px;
+    margin:0 auto;
+}
+.margin_botones
+{
+    margin-right: 4px;
+    margin-bottom: 4px;
+    
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    margin-top: 0px;
+}
+/* FIN */
+
+/* ESTILOS PARA CREAR LOS GROUPBOX */
+.div_cabeza_groupbox
+{
+    border:2px solid #ffffff;
+    -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+
+    /*background: #006600;*/
+    background: #00A6C4;
+
+
+    font-weight:bold;
+    font-family:Arial;
+    font-size:90%;
+    
+    /*color:#00A6C4;*/
+    color: #ffffff;
+    
+    
+    text-align:center;
+    margin:2px 2px 0px 2px;
+    padding-bottom:8px;
+    padding-top:4px;
+    height: 10px;
+    -webkit-box-shadow: 0px 0px 3px 0px #000000;
+    -moz-box-shadow: 0px 0px 3px 0px #000000;
+    box-shadow: 0px 0px 3px 0px #000000; 
+}
+.div_contenido_groupbox
+{
+    border:1px solid #999999;
+    -webkit-border-bottom-right-radius: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    -moz-border-radius-bottomright: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    
+    /*background:#FFFFFF;*/
+    text-align:center;
+    padding:5px;
+    margin:0px 2px 2px 2px;
+    
+    -webkit-box-shadow: 0px 0px 3px 0px #000000;
+    -moz-box-shadow: 0px 0px 3px 0px #000000;
+    box-shadow: 0px 0px 3px 0px #000000; 
+}
+.div_cabeza_groupbox_gris
+{
+    border:2px solid #ffffff;
+    -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+    background: #cccccc;
+    font-weight:bold;
+    font-family:Arial;
+    font-size:90%;
+    color: #990000;
+    text-align:center;
+    margin:2px 2px 0px 2px;
+    padding-bottom:8px;
+    padding-top:4px;
+    height: 10px;
+    -webkit-box-shadow: 0px 0px 3px 0px #000000;
+    -moz-box-shadow: 0px 0px 3px 0px #000000;
+    box-shadow: 0px 0px 3px 0px #000000; 
+}
+.div_contenido_groupbox_gris
+{
+    border:1px solid #aaaaaa;
+     -webkit-border-bottom-right-radius: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    -moz-border-radius-bottomright: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    
+    background:#FFFFFF;
+    text-align:center;
+    padding:5px;
+    margin:0px 2px 2px 2px;
+    
+    border:1px solid #999999;
+    -webkit-border-bottom-right-radius: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    -moz-border-radius-bottomright: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    
+    /*background:#FFFFFF;*/
+    text-align:center;
+    padding:5px;
+    margin:0px 2px 2px 2px;
+}
+/* FIN */
+
+/* ESTILOS PARA LA SECCION DE GRILLA DE RESULTADOS EN EL FORMUALRIO */
+.div_contenedor_grilla_resultados
+{
+    margin:0 auto;
+    font-size:85%;
+    text-align:left;
+}
+
+/* PARA ÑA CABECERA DE TODAS LAS GRILLA */
+th
+{
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+    margin:5px auto;
+    background-color:#990000;
+}
+.grid_seleccionar_registros
+{
+    font-size:90%;
+    font-weight:normal;
+    font-family:Sans-Serif;
+    margin:0px;
+    text-align:left; 
+}
+/* FIN */
+
+/* ESTILOS PARA EL FORMUALRIO */
+table
+{
+    border:none;
+    padding:0px;
+}
+.div_contenedor_formulario
+{
+    width:900px;
+    margin:0 auto 0 auto;
+}
+.div_contenedor_form_interno
+{
+    width:700px;
+    margin:0 auto;
+}
+.table_control_registros
+{
+    margin:0 auto;
+}
+.td_izq
+{
+    text-align:right;
+    padding-right:4px;
+}
+.td_der
+{
+    text-align:left;
+    padding-left:4px;
+    margin-left: 40px;
+}
+.table_form_dos_columnas
+{
+    margin:0 auto;
+}
+.td_act_eco_izq
+{
+    width:100px;
+}
+.table_align_izq
+{
+    width:100%;
+}
+.scroll    
+{
+    background-color:#F2F2F2;
+    font-family: "Arial, Helvetica, Verdana, sans-serif";
+    overflow:auto; 
+    margin:0 auto; 
+    text-align:left;
+    border:1px solid #aaaaaa;
+    font-size:80%;
+}
+#div_contenedor_grid_cobertura
+{
+    width:420px;
+    height:100px;
+}
+#div_contenedor_grid_cobertura_condiciones_usuarias
+{
+    width:450px;
+    height:200px;
+    margin:0px auto;
+}
+#div_contenedor_grid_grupo_empresarial
+{
+    width:450px;
+    height:100px;
+}
+.div_espacio_validacion_campos
+{
+    font-size:90%;
+    font-weight:bold;
+    text-align:center;
+    margin:7px auto;
+    padding:10px 5px;
+    
+    border:1px;
+    border-style:dashed;
+    border-color:Gray;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    
+    background-color:#FFCCCC;
+}
+.validatorCalloutHighlight
+{
+    background-color: #FFDFDF;
+}
+.div_botones_internos
+{
+    font-size:110%;
+    margin:0px auto;
+}
+/* FIN */
+
+/* ESPACIOS ENTRE CONTROLES */
+.div_espaciador
+{
+    height:8px;
+}
+.div_espaciador_htmleditor
+{
+    height:10px;
+}
+/* FIN */
+
+
+.div_historial_activaciones
+{
+    margin:8px auto;
+    background-color:#eeeeee;
+    border:1px solid #cccccc;    
+}
+
+.table_condiciones tr td 
+{
+    border:1px solid #cccccc;
+}
+
+#div_info_adicional_modulo
+{
+    text-align:center;
+    border:1px solid #aaaaaa;
+    
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+
+    background-color:#eeeeee;
+    color:#999999;
+    font-size:120%;
+    font-weight:bold;
+    margin:0px auto 5px auto;
+    padding:5px;
+}
+
+/* HOJA DE TRABAJO */
+.div_para_convencion_hoja_trabajo
+{
+    margin:0 10px 0px 0px;
+    text-align:right;    
+    font-size:80%;
+}
+.div_color_verde
+{
+    background-color:#50CE04;
+    width:10px;
+    height:10px;
+    margin:3px;
+}
+
+.div_color_verde_pestana
+{
+    background-color:#006600;
+    width:10px;
+    height:10px;
+    margin:3px;
+}
+
+.div_color_gris_pestana
+{
+    background-color:#dddddd;
+    width:10px;
+    height:10px;
+    margin:3px;
+}
+
+.div_color_rojo_pestana
+{
+    background-color:#990000;
+    width:10px;
+    height:10px;
+    margin:3px;
+}
+
+.div_color_amarillo
+{
+    background-color:#FFF200;
+    width:10px;
+    height:10px;
+    margin:3px;    
+}
+.div_color_rojo
+{
+    background-color:#F8523A;
+    width:10px;
+    height:10px;
+    margin:3px;    
+}
+.div_color_morado
+{
+    background-color:#7100E1;
+    width:10px;
+    height:10px;
+    margin:3px;    
+}
+.div_color_azul
+{
+    background-color:#699DF0;
+    width:10px;
+    height:10px;
+    margin:3px;    
+}
+.div_color_gris
+{
+    background-color:Gray;
+    width:10px;
+    height:10px;
+    margin:3px;    
+}
+.div_color_naranja
+{
+    background-color:#F09857;
+    width:10px;
+    height:10px;
+    margin:3px; 
+}
+.td_contenedor_colores_hoja_trabajo
+{
+    width:11px;
+}
+
+.tabla_alineada_derecha
+{
+    margin:0px;
+    width:100%;
+}
+/* --------------- */
+
+
+
+
+
+
+
+
+/* ESTILOS PARA EL LOGIN */
+.td_img_fondo_logos
+{
+    background:url('../imagenes/plantilla/central_login_r2_c1.png');
+    background-repeat:repeat-y;
+    width:320px;
+}
+.img_logo_centrado
+{
+    margin:5px auto;
+    display:block;    
+}
+.td_img_fondo_labels
+{
+    background:url('../imagenes/plantilla/central_login_r3_c1.png');
+    background-repeat:no-repeat;
+    width:320px;
+    height:220px;
+}
+#tabla_login
+{
+    width:320px;
+    margin:0 auto;
+}
+#div_contenedor_label_mensaje_login
+{
+    margin:5px 22px 5px 28px;
+    text-align:justify;
+    font-size:95%;
+}
+#div_contenedor_inicio_sesion
+{
+    margin:0 80px 0 13px;
+}
+#div_texto_pie_login
+{
+    text-align:center;
+    font-weight:bold;
+    color:#aaaaaa;
+    font-size:90%;
+}
+.td_izq_login
+{
+    text-align:right;
+    padding:2px; 
+    color:#ffffff;
+    font-weight:bold;
+}
+.td_der_login
+{
+    text-align:left;
+    padding:2px;
+}
+.td_link_recordar_password
+{
+    text-align:right;
+    padding:2px;
+}
+.div_contenedor_adorno
+{
+    border:2px solid #dddddd;
+    padding:2px; 
+}
+
+
+
+
+.div_titulos_entrevista
+{
+    text-align:center;
+    color:#0000bb;
+    font-weight:bold;
+    font-size:120%;
+    margin:10px; 
+}
+
+
+
+/* PARA EL ACORDEON DE AUDITORIA DE CONTRATACION */
+.accordionHeader
+{
+    border: 1px solid #aaaaaa;
+    color: #006600;
+    background-color: #cccccc;
+	font-family: Arial, Sans-Serif;
+	font-size: 11px;
+	font-weight: bold;
+    padding: 2px;
+    margin-top: 5px;
+    cursor: pointer;
+    text-align:center;
+}
+.panel_cabeceras_panes
+{
+    padding: 3px;
+}
+.accordionHeaderSelected
+{
+    border: 1px solid #006600;
+    color: #006600;
+    background-color: #0E8743;
+    font-family:Arial;
+	font-size: 90%;
+	font-weight: bold;
+    padding: 2px;
+    margin-top: 5px;
+    cursor: pointer;
+    text-align:center;
+}
+.accordionContent
+{
+    background-color: #eeeeee;
+    border: 1px solid #006600;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+    text-align:center;
+}
+.accordionLink
+{
+    color:#006600;
+    text-decoration:none;
+}
+
+
+
+
+
+/* PARA GRILLAS */
+.columna_grid_centrada
+{
+    text-align:center;
+    padding:2px 4px;
+}
+.columna_grid_der
+{
+    text-align:right;
+    padding:2px 4px;
+}
+.columna_grid_izq
+{
+    text-align:left;
+    padding:2px 4px;
+}
+.columna_grid_jus
+{
+    text-align:justify;
+    padding:2px 4px;
+}
+
+
+
+
+/* CABECERA PANELES DE LA SECCION DE JURIDICA (HOJAS DE TRABAJO) */
+.img_cabecera_hoja
+{
+    width:13px;
+    height:13px;
+    text-decoration:none;
+    margin-right:5px;
+}
+/*     -----------------------------------------------------     */
+
+
+/* CABECEAR SUBTITULOS */
+.div_cabeza_subtitulo_groupbox_gris
+{
+    border:2px solid #ffffff;
+    
+    -webkit-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border-radius: 7px;
+
+    background: #cccccc;
+    font-weight:bold;
+    font-family:Arial;
+    font-size:90%;
+    color: #000000;
+    text-align:left;
+    margin:2px 2px 0px 2px;
+    padding-bottom:8px;
+    padding-top:4px;
+    padding-left:10px;
+    height: 10px;
+    -webkit-box-shadow: 0px 0px 3px 0px #000000;
+    -moz-box-shadow: 0px 0px 3px 0px #000000;
+    box-shadow: 0px 0px 3px 0px #000000; 
+}
+
+/* PARA UN AVISO E TERMINACION DE PROCESOS JURIDICOS */
+.div_aviso_terminacion
+{
+    text-align:center;
+    color:Blue;
+    margin:10px;
+}
+/*  ---------------------------------------------    */
+
+/* PARA ALINEAR TEXT A LA DERECA EN TEXT BOX */
+.textbox_texto_derecha
+{
+    text-align:right;    
+}
+
+
+/* ---------- para popup de updateprocess--------------*/
+.div_update_process
+{
+    position: fixed; 
+    left: 0;
+    top: 0; 
+    width: 100%; 
+    height: 100%;
+    z-index: 99999;    
+}
+.div_aviso_update_process
+{
+    position: fixed;
+    
+    top:50%;
+    left:50%;
+ 
+    width:300px;
+    margin-left:-150px;    
+    height:200px;
+    margin-top:-100px;
+
+    background-color:#dddddd;
+    
+    -webkit-box-shadow: 0px 0px 3px 0px #000000;
+    -moz-box-shadow: 0px 0px 3px 0px #000000;
+    box-shadow: 0px 0px 3px 0px #000000; 
+    
+    border:2px solid #ffffff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px; 
+}
+
+.centrar
+{
+    position: absolute;
+	/*nos posicionamos en el centro del navegador*/
+	top:50%;
+	left:50%;
+	/*determinamos una anchura*/
+	width:400px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:-200px;
+	/*determinamos una altura*/
+	height:300px;
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:-150px;
+    border:1px solid #808080;
+    padding:5px;
+}
+
+/* PARA EL PANEL DE FONDO EN LOS MENSAJES POPUP*/
+.panel_fondo_popup
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #aaaaaa;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 9998;
+    display: none;
+}
+
+.panel_fondo_popup_sel_contrato
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #aaaaaa;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 9998;
+    display: none;
+}
+
+.panel_fondo_ventana_datos
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #aaaaaa;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 9998;
+}
+
+.panel_fondo_popup_reportes
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    background-color: #aaaaaa;
+    z-index: 9998;
+    display: none;
+}
+
+.panel_popup
+{
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    width: 650px;
+    margin-left: -325px;
+    background-color: #dddddd;
+    opacity: 1.0;
+    -moz-opacity: 1.0;
+    filter: alpha(opacity=100);
+    z-index: 9999;
+    border: 2px solid #cccccc;
+    padding: 8px;
+    display: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 3px 3px #999999;
+    -moz-box-shadow: 0px 0px 3px 3px #999999;
+    box-shadow: 0px 0px 3px 3px #999999;
+    display: none;
+}
+
+.panel_popup_sel_contrato
+{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    width: 600px;
+    margin-left: -300px;
+    background-color: #dddddd;
+    opacity: 1.0;
+    -moz-opacity: 1.0;
+    filter: alpha(opacity=100);
+    z-index: 9999;
+    border: 2px solid #cccccc;
+    padding: 8px;
+    display: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 3px 3px #999999;
+    -moz-box-shadow: 0px 0px 3px 3px #999999;
+    box-shadow: 0px 0px 3px 3px #999999;
+    display: none;
+}
+
+.panel_popup_esquema_prog
+{
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    width: 750px;
+    margin-left: -375px;
+    background-color: #dddddd;
+    opacity: 1.0;
+    -moz-opacity: 1.0;
+    filter: alpha(opacity=100);
+    z-index: 9999;
+    border: 2px solid #cccccc;
+    padding: 8px;
+    display: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 3px 3px #999999;
+    -moz-box-shadow: 0px 0px 3px 3px #999999;
+    box-shadow: 0px 0px 3px 3px #999999;
+    display: none;
+}
+
+.panel_popup_reportes
+{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 9999;
+    display: none;
+}
+
+
+.panel_popup_ventana_datos
+{
+    position: fixed;
+    
+    
+    
+    top: 50%;
+    left: 50%;
+    
+    /* ------------- */
+    width: 650px;
+    height: 300px;
+    margin-left: -325px;
+    margin-top: -150px;
+    /* ------------- */
+    
+    
+    background-color: #dddddd;
+    opacity: 1.0;
+    -moz-opacity: 1.0;
+    filter: alpha(opacity=100);
+    z-index: 9999;
+    border: 2px solid #cccccc;
+    padding: 8px;
+    
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 3px 3px #999999;
+    -moz-box-shadow: 0px 0px 3px 3px #999999;
+    box-shadow: 0px 0px 3px 3px #999999;
+}
+
+
+.div_espacio_validacion_campos_rojo
+{
+    font-size: 90%;
+    font-weight: bold;
+    text-align: center;
+    margin: 7px auto;
+    padding: 10px 5px;
+            
+    border: 1px solid #FD9893;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+            
+    background-color:#FEC8C5;
+            
+    -webkit-box-shadow: 0px 0px 3px 3px #FC6F67;
+    -moz-box-shadow: 0px 0px 3px 3px #FC6F67;
+    box-shadow: 0px 0px 3px 3px #FC6F67;
+            
+}
+.div_espacio_validacion_campos_verde
+{
+    font-size: 90%;
+    font-weight: bold;
+    text-align: center;
+    margin: 7px auto;
+    padding: 10px 5px;
+    border: 1px;
+    border-style: dashed;
+    border-color: Gray;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color:#BEFAB4;
+}
+
+
+
+/*  PARA VALIDADOR DE PASSWORD DE AJAX  */
+.BarIndicator_debil
+{
+    color:Red;
+    background-color:Red;
+}
+.BarIndicator_promedio
+{
+    color:Blue;
+    background-color:Blue;
+}
+.BarIndicator_buena
+{
+    color:Green;
+    background-color:Green;
+}
+.BarBorder
+{
+    border-style:solid;
+    border-width:1px;
+    /*padding:2px 2px 2px 2px;*/
+    width:100px;
+    vertical-align:middle;
+    border-radius: 2px;
+}
+/*  PARA VALIDADOR DE PASSWORD DE AJAX  */
+
+
+
+.div_tag_entrevista
+{
+    margin: 0 auto;
+    width:95%;
+    text-align:justify;
+}
+
+.div_tag_entrevista ul
+{
+    padding:0 0 0 15px;
+    margin:0;
+}
+
+/*
+    ESTILOS PARA EL MANUAL DE SERVICIO
+*/
+.titulos_manual
+{
+    font-weight:bold;
+    text-align:left;
+    margin: 5px 0;
+}
+.texto_manual
+{
+    text-align:justify;
+    margin-left:8px;
+}
+
+#tabla_identificacion_cliente
+{
+    width:75%;    
+}
+#tabla_identificacion_cliente .td_label
+{
+    text-align:left;    
+}
+
+
+.div_numero_dia_grilla_Actividades
+{
+    text-align:right; 
+    margin-top:3px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size:7pt;
+    font-weight:bold;
+    color:#555555;
+    background-color:#dddddd;
+    border:1px solid #cccccc;
+    padding:2px 6px 2px 2px;
+    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.div_titulo_actividad_grilla
+{
+    text-align:center;    
+}
+
+.grilla_actividades th
+{
+    font-weight:bold;
+    color:#000000;
+    text-align:center;
+    margin:2px auto;
+    background-color:#eeeeee;
+}
+
+.grilla_actividades
+{
+    width:100%;
+    font-size:6.5pt;
+    border:none;
+}
+
+.grilla_actividades td
+{
+    border:none;
+    text-align:left;
+    padding:1px;
+    /* background-color:#50CE04; */
+    /* background-color:#eeeeee; */
+    border:1px solid #cccccc;
+    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.div_grilla_actividades
+{
+    margin: 3px 1px 2px 1px;
+}
+.grilla_actividades a:link
+{
+    color:#006600;
+    text-decoration:none;
+}
+.grilla_actividades a:visited
+{
+    color:#006600;
+    text-decoration:none;
+}
+.grilla_actividades a:hover
+{
+    color:#aaaaaa;
+    text-decoration:none;
+}
+
+.table_horario_e_imagen_act
+{
+    margin:0 auto;
+    width:100%; 
+}
+
+
+.tree_view_texto
+{
+    text-align:justify;    
+}
+
+.money
+{
+    text-align:right;    
+}
+
+.TextBox_con_letra_pequena
+{
+    font-size:9px;    
+}
+
+
+
+
+
+/* VENTANA DE PROCESAMINETO */
+.conf_panel_fondo_ventana_emergente
+{
+    width: 100%;
+    height: 100%;
+    background-color: #aaaaaa;
+    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+    background-color: #cccccc;
+    opacity: 0.90;
+    filter: alpha(opacity=90);
+    z-index: 9998;
+    /*display: none;*/
+}
+
+.conf_panel_ventana_emergente
+{
+    background-color:#ffffff;
+    
+    -webkit-box-shadow: 0px 0px 3px 0px #000000;
+    -moz-box-shadow: 0px 0px 3px 0px #000000;
+    box-shadow: 0px 0px 3px 0px #000000; 
+    
+    border:2px solid #ffffff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px; 
+    
+    height:218px;
+    width:428px;
+    
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -109px;
+    margin-left: -214px;
+    z-index: 9999;
+    /*display:none;*/
+}
+
+.div_objetivos_area
+{
+    border:2px solid #cccccc;
+    background-color:#eeeeee;
+    
+    color:#666666;
+    
+    padding:18px 20px 5px 20px;
+    
+    text-align:center;
+    
+    -webkit-border-radius: 40px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius: 40px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-radius: 40px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    -webkit-box-shadow: 0px 4px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 4px 3px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 4px 3px rgba(50, 50, 50, 0.75); 
+    
+    margin:-43px auto 10px auto;      
+}
+
+.td_padding_resupuesto
+{
+    padding-top:30px;
+    padding-bottom:30px;    
+}
+
+/*
+    CLASES PARA BOTONES DE PESTAÑAS 
+*/
+.botonInactivoOk
+{
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    -webkit-box-shadow: inset 0px 1px 2px 1px #CCC;
+    box-shadow: inset 0px 1px 2px 1px #CCC;
+    
+    border: 1px solid #cccccc;
+    height:40px;
+    width:128px;
+    
+    background-color:#006600;
+    color:#ffffff;
+    font-weight:bold;
+    font-size:95%;
+    padding:5px;
+}
+
+.botonInactivoFail
+{
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    -webkit-box-shadow: inset 0px 1px 2px 1px #CCC;
+    box-shadow: inset 0px 1px 2px 1px #CCC;
+    
+    border: 1px solid #cccccc;
+    height:40px;
+    width:128px;
+    
+    background-color:#990000;
+    color:#ffffff;
+    font-weight:bold;
+    font-size:95%;
+    padding:5px;
+}
+
+.botonActivo
+{
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    -webkit-box-shadow: inset 0px 1px 2px 1px #CCC;
+    box-shadow: inset 0px 1px 2px 1px #CCC;
+    
+    border: 1px solid #999999;
+    height:40px;
+    width:128px;
+    
+    background-color:#dddddd;
+    color:#000000;
+    font-weight:bold;
+    font-size:95%;
+    padding:5px;
+}
+
+.tab_radicacion
+{
+    border:1px solid #aaaaaa;
+    padding:8px;
+    background-color:#ffffff;
+}
+
+.table_form_radicacion
+{
+    margin:0 auto;
+    display:block;
+    width:870px;  
+}
+.table_ajustada
+{
+    margin:0 auto;
+    width:100%; 
+}
+
+.td_3
+{
+    text-align:left;
+    width:33.3%;
+}
+
+.td_2
+{
+    text-align:left;
+    width:420px; /* antes 50% */
+}
+
+.textbox_ajustado
+{
+    width:100%;
+}
+.textbox_ajustado_money
+{
+    width:100%;
+    text-align:right;    
+}
+
+.validator
+{
+    margin:0 auto;
+    display:block; 
+}
+
+.image_icon_convenciones
+{
+    margin:0 auto;
+    display:block;
+}
+
+.div_titulo_programa_general
+{
+    background-color:#CCCCCC;
+    margin:2px;
+    padding:2px;
+    text-align:justify;
+    color:#800000;
+    font-weight:bold;
+    border:solid 1px #BBBBBB;
+}
+
+.textbox_texto_centrado
+{
+    text-align:center;
+}
+
+.texto_vertical
+{
+    width: 7px; 
+    word-wrap: break-word; 
+    text-align: center
+}
+
+
+.div_contenedor_botones_menu_cliente
+{
+    margin: 5px auto;    
+}
+
+
+.div_contenedor_form_cliente
+{
+    margin:-30px auto 0px auto;    
+}
+
+.watermarked 
+{
+	background-color:#F0F8FF;
+	color:gray;
+}	
+
+
+.letra_usuario_conectado
+{
+    font-size:140%;
+    color:#000000;
+    font-weight:bold;
+    text-align:left;
+    padding-left:9px;
+    text-transform:uppercase;
+}
+
+.letra_link_cerrar_pass a
+{
+    color:#aaaaaa;
+    font-size:120%;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+/*
+    colores para grilla de control de periodos de nomina
+*/
+.div_color_activo
+{
+    background-color:#FF6766;
+    width:10px;
+    height:10px;
+    margin:3px;
+}
+.div_color_liquidado
+{
+    background-color:#FFA666;
+    width:10px;
+    height:10px;
+    margin:3px;
+}
+.div_color_validado
+{
+    background-color:#FFDF66;
+    width:10px;
+    height:10px;
+    margin:3px;
+}
+.div_color_contabilizado
+{
+    background-color:#A3E0FF;
+    width:10px;
+    height:10px;
+    margin:3px;
+}
+.div_color_pagado
+{
+    background-color:#66A366;
+    width:10px;
+    height:10px;
+    margin:3px;
+}

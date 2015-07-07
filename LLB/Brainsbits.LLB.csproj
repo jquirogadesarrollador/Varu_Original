@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5902E5B6-13EB-45D2-A490-49161AEB956C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Brainsbits.LLB</RootNamespace>
+    <AssemblyName>Brainsbits.LLB</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alertasAutomaticas\alertas.cs" />
+    <Compile Include="almacen\bodega.cs" />
+    <Compile Include="almacen\calificaionProveedores.cs" />
+    <Compile Include="almacen\categoriasProveedorProducto.cs" />
+    <Compile Include="almacen\cierreInventario.cs" />
+    <Compile Include="almacen\ConfiguracionEnvioOrden.cs" />
+    <Compile Include="almacen\criteriosEvaluacionProveedores.cs" />
+    <Compile Include="almacen\crtDescargueFactura.cs" />
+    <Compile Include="almacen\documento.cs" />
+    <Compile Include="almacen\DocumentoCalificacionProveedor.cs" />
+    <Compile Include="almacen\DocumentoProveedor.cs" />
+    <Compile Include="almacen\documento_temp.cs" />
+    <Compile Include="almacen\Entregas.cs" />
+    <Compile Include="almacen\EntregasPorAprobar.cs" />
+    <Compile Include="almacen\Equipo.cs" />
+    <Compile Include="almacen\EquipoAjuste.cs" />
+    <Compile Include="almacen\EquipoEntradaTemp.cs" />
+    <Compile Include="almacen\EquipoEntrega.cs" />
+    <Compile Include="almacen\EquipoTraslado.cs" />
+    <Compile Include="almacen\Inventario.cs" />
+    <Compile Include="almacen\Inventario_temp.cs" />
+    <Compile Include="almacen\lote.cs" />
+    <Compile Include="almacen\negociacionProveedores.cs" />
+    <Compile Include="almacen\nivelesAutorizacionOrden.cs" />
+    <Compile Include="almacen\ordenCompra.cs" />
+    <Compile Include="almacen\producto.cs" />
+    <Compile Include="almacen\proveedor.cs" />
+    <Compile Include="almacen\SolicitudPlanta.cs" />
+    <Compile Include="comercial\centroCosto.cs" />
+    <Compile Include="comercial\cliente.cs" />
+    <Compile Include="comercial\cobertura.cs" />
+    <Compile Include="comercial\condicionComercial.cs" />
+    <Compile Include="comercial\contratosServicio.cs" />
+    <Compile Include="comercial\detalleServicio.cs" />
+    <Compile Include="comercial\grupoEmpresarial.cs" />
+    <Compile Include="comercial\historialActivacion.cs" />
+    <Compile Include="comercial\historialEnviosDevoluciones.cs" />
+    <Compile Include="comercial\Informacion_Basica_comercial.cs" />
+    <Compile Include="comercial\presupuesto.cs" />
+    <Compile Include="comercial\servicio.cs" />
+    <Compile Include="comercial\servicioRespectivo.cs" />
+    <Compile Include="comercial\Venta.cs" />
+    <Compile Include="contabilidad\contabilidad.cs" />
+    <Compile Include="contabilidad\parametroContableCcosto.cs" />
+    <Compile Include="contabilidad\parametroContablePuc.cs" />
+    <Compile Include="contabilidad\parametroIva.cs" />
+    <Compile Include="contabilidad\parametroReteFuente.cs" />
+    <Compile Include="contratacion\Abogados.cs" />
+    <Compile Include="contratacion\actosJuridicos.cs" />
+    <Compile Include="contratacion\afiliacion.cs" />
+    <Compile Include="contratacion\arp.cs" />
+    <Compile Include="contratacion\AsignacionServiciosComplementarios.cs" />
+    <Compile Include="contratacion\auditoriaContratos.cs" />
+    <Compile Include="contratacion\Autoliquidacion.cs" />
+    <Compile Include="contratacion\autoRecomendaciones.cs" />
+    <Compile Include="contratacion\bancosPorEmpresa.cs" />
+    <Compile Include="contratacion\cajaCompensacionFamiliar.cs" />
+    <Compile Include="contratacion\casoSevero.cs" />
+    <Compile Include="contratacion\Clausula.cs" />
+    <Compile Include="contratacion\comiteConvivencia.cs" />
+    <Compile Include="contratacion\ConceptosNominaEmpleado.cs" />
+    <Compile Include="contratacion\condicionesContratacion.cs" />
+    <Compile Include="contratacion\confDocsEntregables.cs" />
+    <Compile Include="contratacion\configuracionElementosPerfil.cs" />
+    <Compile Include="contratacion\ConRegContratatoTemporal.cs" />
+    <Compile Include="contratacion\controlFallecidos.cs" />
+    <Compile Include="contratacion\ControlPersonalNomina.cs" />
+    <Compile Include="contratacion\descargo.cs" />
+    <Compile Include="contratacion\diagnostico.cs" />
+    <Compile Include="contratacion\DocumentoEntregable.cs" />
+    <Compile Include="contratacion\documentosLegales.cs" />
+    <Compile Include="contratacion\EntregaServicioComplementario.cs" />
+    <Compile Include="contratacion\eps.cs" />
+    <Compile Include="contratacion\examenesEmpleado.cs" />
+    <Compile Include="contratacion\examenesPorPerfil.cs" />
+    <Compile Include="contratacion\fondoPensiones.cs" />
+    <Compile Include="contratacion\incapacidad.cs" />
+    <Compile Include="contratacion\investigacionesAdministrativas.cs" />
+    <Compile Include="contratacion\llamadoAtencion.cs" />
+    <Compile Include="contratacion\ordenExamenes.cs" />
+    <Compile Include="contratacion\Pagos.cs" />
+    <Compile Include="contratacion\registroContrato.cs" />
+    <Compile Include="contratacion\requerimientosMinisterio.cs" />
+    <Compile Include="contratacion\Retiro.cs" />
+    <Compile Include="contratacion\sancion.cs" />
+    <Compile Include="descuentos\novedadesDescuentos.cs" />
+    <Compile Include="facturacion\facturacion.cs" />
+    <Compile Include="financiera\financiera.cs" />
+    <Compile Include="fonPromover\novedadFonpromover.cs" />
+    <Compile Include="gestionHumana\ControlContratos.cs" />
+    <Compile Include="gestionHumana\EvaluacionPlanta.cs" />
+    <Compile Include="gestionHumana\ProgramadorVacaciones.cs" />
+    <Compile Include="maestras\acoset.cs" />
+    <Compile Include="maestras\actividad.cs" />
+    <Compile Include="maestras\bancos.cs" />
+    <Compile Include="maestras\cargo.cs" />
+    <Compile Include="maestras\ciudad.cs" />
+    <Compile Include="maestras\clase.cs" />
+    <Compile Include="maestras\contactos.cs" />
+    <Compile Include="maestras\CrtCalendario.cs" />
+    <Compile Include="maestras\CrtRestriccionPalabras.cs" />
+    <Compile Include="maestras\departamento.cs" />
+    <Compile Include="maestras\division.cs" />
+    <Compile Include="maestras\documento.cs" />
+    <Compile Include="maestras\empresasRiesgos.cs" />
+    <Compile Include="maestras\fuentesReclutamiento.cs" />
+    <Compile Include="maestras\modeloSoportes.cs" />
+    <Compile Include="maestras\NumToLetra.cs" />
+    <Compile Include="maestras\Pais.cs" />
+    <Compile Include="maestras\parametro.cs" />
+    <Compile Include="maestras\puc.cs" />
+    <Compile Include="maestras\regional.cs" />
+    <Compile Include="maestras\seccion.cs" />
+    <Compile Include="maestras\subCentroCosto.cs" />
+    <Compile Include="maestras\tercero.cs" />
+    <Compile Include="maestras\tools.cs" />
+    <Compile Include="maestras\usuarios.cs" />
+    <Compile Include="nomina\aliviosTributarios.cs" />
+    <Compile Include="nomina\conceptosNomina.cs" />
+    <Compile Include="nomina\condicionNomina.cs" />
+    <Compile Include="nomina\controlPeriodos.cs" />
+    <Compile Include="nomina\descuentoTerceros.cs" />
+    <Compile Include="nomina\diaPromedioDominical.cs" />
+    <Compile Include="nomina\hojaTrabajo.cs" />
+    <Compile Include="nomina\incapadadConceptosNomina.cs" />
+    <Compile Include="nomina\liquidacionMemorando.cs" />
+    <Compile Include="nomina\liquidacionNomina.cs" />
+    <Compile Include="nomina\liquidacionPrestacionesSociales.cs" />
+    <Compile Include="nomina\liquidarCesantias.cs" />
+    <Compile Include="nomina\liquidarPrimas.cs" />
+    <Compile Include="nomina\liquidarVacaciones.cs" />
+    <Compile Include="nomina\Lps.cs" />
+    <Compile Include="nomina\lpsMasiva.cs" />
+    <Compile Include="nomina\migracionTemp.cs" />
+    <Compile Include="nomina\novedadMemo.cs" />
+    <Compile Include="nomina\novedadNomina.cs" />
+    <Compile Include="nomina\novedadNominaCP.cs" />
+    <Compile Include="nomina\parametroAusentismo.cs" />
+    <Compile Include="nomina\parametroIncapacidad.cs" />
+    <Compile Include="nomina\parametroLiquidaHora.cs" />
+    <Compile Include="nomina\parametroParafiscal.cs" />
+    <Compile Include="nomina\parametroPeriodicidadNomina.cs" />
+    <Compile Include="nomina\parametroPrestacional.cs" />
+    <Compile Include="nomina\parametroSalarial.cs" />
+    <Compile Include="nomina\parametroSeguridadSocial.cs" />
+    <Compile Include="nomina\parametroUnidadReporte.cs" />
+    <Compile Include="nomina\parametroUvt.cs" />
+    <Compile Include="nomina\periodoNomina.cs" />
+    <Compile Include="nomina\reportes\SoporteNomina.cs" />
+    <Compile Include="nomina\ValidarNominaMasivamente.cs" />
+    <Compile Include="operaciones\manualServicio.cs" />
+    <Compile Include="operaciones\operaciones.cs" />
+    <Compile Include="operaciones\Permiso.cs" />
+    <Compile Include="operaciones\Proceso.cs" />
+    <Compile Include="operaciones\Seccion.cs" />
+    <Compile Include="pagos\pagos.cs" />
+    <Compile Include="procedimiento.cs" />
+    <Compile Include="programasRseGlobal\Actividad.cs" />
+    <Compile Include="programasRseGlobal\Asistencia.cs" />
+    <Compile Include="programasRseGlobal\Calendario.cs" />
+    <Compile Include="programasRseGlobal\Compromiso.cs" />
+    <Compile Include="programasRseGlobal\DetalleSeguimientoAccidente.cs" />
+    <Compile Include="programasRseGlobal\DetalleSeguimientoCasoSevero.cs" />
+    <Compile Include="programasRseGlobal\DiagnosticoCasoSevero.cs" />
+    <Compile Include="programasRseGlobal\EntidadColaboradora.cs" />
+    <Compile Include="programasRseGlobal\FactorCausaAccidente.cs" />
+    <Compile Include="programasRseGlobal\MotivoActProgComp.cs" />
+    <Compile Include="programasRseGlobal\presupuesto.cs" />
+    <Compile Include="programasRseGlobal\Programa.cs" />
+    <Compile Include="programasRseGlobal\RecomendacionCasoSevero.cs" />
+    <Compile Include="programasRseGlobal\SeguimientoAccidentes.cs" />
+    <Compile Include="programasRseGlobal\SeguimientoCasoSevero.cs" />
+    <Compile Include="programasRseGlobal\subPrograma.cs" />
+    <Compile Include="programasRseGlobal\TiposActividad.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rendimiento.cs" />
+    <Compile Include="Reporte.cs" />
+    <Compile Include="seguridad\auditoria.cs" />
+    <Compile Include="seguridad\seguridad.cs" />
+    <Compile Include="seguridad\usuario.cs" />
+    <Compile Include="seguridad\UsuarioEmpresaCiudad.cs" />
+    <Compile Include="seleccion\AplicacionCompetencia.cs" />
+    <Compile Include="seleccion\BaseDatos.cs" />
+    <Compile Include="seleccion\categoriaPruebas.cs" />
+    <Compile Include="seleccion\categoriaReferencia.cs" />
+    <Compile Include="seleccion\CompetenciaAssement.cs" />
+    <Compile Include="seleccion\competenciaEntrevista.cs" />
+    <Compile Include="seleccion\ComposicionFamiliar.cs" />
+    <Compile Include="seleccion\CondicionesUsuarias.cs" />
+    <Compile Include="seleccion\documentoPerfil.cs" />
+    <Compile Include="seleccion\DocumentoValidacion.cs" />
+    <Compile Include="seleccion\envioCandidato.cs" />
+    <Compile Include="seleccion\ExperienciaLaboral.cs" />
+    <Compile Include="seleccion\FabricaAssesment.cs" />
+    <Compile Include="seleccion\FormacionAcademica.cs" />
+    <Compile Include="seleccion\hojasVida.cs" />
+    <Compile Include="seleccion\listaPruebasAplicadas.cs" />
+    <Compile Include="seleccion\MotivoRotacionEmpresa.cs" />
+    <Compile Include="seleccion\MotivoRotacionRetiro.cs" />
+    <Compile Include="seleccion\perfil.cs" />
+    <Compile Include="seleccion\preguntaReferencia.cs" />
+    <Compile Include="seleccion\pruebaPerfil.cs" />
+    <Compile Include="seleccion\pruebaSeleccion.cs" />
+    <Compile Include="seleccion\radicacionHojasDeVida.cs" />
+    <Compile Include="seleccion\Reclutamiento.cs" />
+    <Compile Include="seleccion\referencia.cs" />
+    <Compile Include="seleccion\regRegsitrosHojaVida.cs" />
+    <Compile Include="seleccion\requisicion.cs" />
+    <Compile Include="seleccion\requisito.cs" />
+    <Compile Include="seleccion\respuestaReferencia.cs" />
+    <Compile Include="seleccion\RotacionEmpleado.cs" />
+    <Compile Include="tabla.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LDA\Brainsbits.LDA.csproj">
+      <Project>{840364AD-5BF9-4F08-98E0-7BC89E024EDF}</Project>
+      <Name>Brainsbits.LDA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

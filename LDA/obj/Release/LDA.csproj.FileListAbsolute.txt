@@ -1,0 +1,4 @@
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\bin\Release\Brainsbits.LDA.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\bin\Release\Brainsbits.LDA.pdb
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\obj\Release\Brainsbits.LDA.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\obj\Release\Brainsbits.LDA.pdb

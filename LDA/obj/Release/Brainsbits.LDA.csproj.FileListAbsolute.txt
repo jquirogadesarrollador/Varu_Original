@@ -1,0 +1,8 @@
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\bin\Release\Brainsbits.LDA.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\bin\Release\Brainsbits.LDA.pdb
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\obj\Release\Brainsbits.LDA.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\obj\Release\Brainsbits.LDA.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LDA\bin\Release\Brainsbits.LDA.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LDA\bin\Release\Brainsbits.LDA.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LDA\obj\Release\Brainsbits.LDA.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LDA\obj\Release\Brainsbits.LDA.pdb
