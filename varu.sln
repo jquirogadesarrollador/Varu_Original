@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainsbits.LDA", "LDA\Brainsbits.LDA.csproj", "{840364AD-5BF9-4F08-98E0-7BC89E024EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainsbits.LLB", "LLB\Brainsbits.LLB.csproj", "{5902E5B6-13EB-45D2-A490-49161AEB956C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UI", "UI\", "{997534CD-F9E7-4106-9F76-6FA6988C792C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{840364AD-5BF9-4F08-98E0-7BC89E024EDF}|Brainsbits.LDA.dll;{5902E5B6-13EB-45D2-A490-49161AEB956C}|Brainsbits.LLB.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/UI"
+		Debug.AspNetCompiler.PhysicalPath = "UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/UI"
+		Release.AspNetCompiler.PhysicalPath = "UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57041"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{840364AD-5BF9-4F08-98E0-7BC89E024EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840364AD-5BF9-4F08-98E0-7BC89E024EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840364AD-5BF9-4F08-98E0-7BC89E024EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840364AD-5BF9-4F08-98E0-7BC89E024EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5902E5B6-13EB-45D2-A490-49161AEB956C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5902E5B6-13EB-45D2-A490-49161AEB956C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5902E5B6-13EB-45D2-A490-49161AEB956C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5902E5B6-13EB-45D2-A490-49161AEB956C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997534CD-F9E7-4106-9F76-6FA6988C792C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997534CD-F9E7-4106-9F76-6FA6988C792C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997534CD-F9E7-4106-9F76-6FA6988C792C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{997534CD-F9E7-4106-9F76-6FA6988C792C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
