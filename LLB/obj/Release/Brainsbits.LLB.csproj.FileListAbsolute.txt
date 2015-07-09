@@ -8,3 +8,26 @@ F:\Mis proyectos\grupo varu\solucion\s-v\varu\LLB\obj\Release\Brainsbits.LLB.pdb
 C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LLB\obj\Release\Brainsbits.LLB.csprojResolveAssemblyReference.cache
 C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LLB\obj\Release\Brainsbits.LLB.dll
 C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LLB\obj\Release\Brainsbits.LLB.pdb
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\obj\Release\Brainsbits.LLB.csprojResolveAssemblyReference.cache
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\obj\Release\Brainsbits.LLB.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\obj\Release\Brainsbits.LLB.pdb
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\Brainsbits.LLB.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\Brainsbits.LLB.pdb
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\Brainsbits.LDA.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportSource.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.Shared.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.Web.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LLB\bin\Release\Brainsbits.LDA.pdb

@@ -6,3 +6,7 @@ C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos Brai
 C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LDA\bin\Release\Brainsbits.LDA.pdb
 C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LDA\obj\Release\Brainsbits.LDA.dll
 C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Insumo\varu\LDA\obj\Release\Brainsbits.LDA.pdb
+C:\PROYECTO_PERSONALES\Varu_Original\LDA\bin\Release\Brainsbits.LDA.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LDA\bin\Release\Brainsbits.LDA.pdb
+C:\PROYECTO_PERSONALES\Varu_Original\LDA\obj\Release\Brainsbits.LDA.dll
+C:\PROYECTO_PERSONALES\Varu_Original\LDA\obj\Release\Brainsbits.LDA.pdb
